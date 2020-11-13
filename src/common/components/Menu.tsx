@@ -6,12 +6,7 @@ import styled from "styled-components";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import SettingsIcon from "@material-ui/icons/Settings";
 import ComputerIcon from "@material-ui/icons/Computer";
-import {
-  Link as RouterLink,
-  NavLink,
-  withRouter,
-  RouteComponentProps,
-} from "react-router-dom";
+import { NavLink, withRouter, RouteComponentProps } from "react-router-dom";
 // 3번영역
 // 메뉴정보만 props으로 받아서 리스팅하였습니다.
 

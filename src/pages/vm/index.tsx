@@ -11,7 +11,7 @@ interface Props {
   morethan768: boolean;
 }
 const VMPage: React.FC<Props> = ({ morethan768 }) => {
-  const { data, error } = useSWR(mockApiUrl, fetcher, SwrConfig);
+  const { data } = useSWR(mockApiUrl, fetcher, SwrConfig);
 
   return (
     <>

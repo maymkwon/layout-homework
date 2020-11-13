@@ -24,7 +24,7 @@ const InfoBox = styled(FlexItem)`
 `;
 
 const ConfigPage: React.FC<Props> = ({ morethan768, ...rest }) => {
-  const { data, error } = useSWR(mockApiUrl, fetcher, SwrConfig);
+  const { data } = useSWR(mockApiUrl, fetcher, SwrConfig);
   return (
     <>
       <HeaderConfig morethan768={morethan768} />
