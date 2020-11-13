@@ -68,7 +68,6 @@ interface Props {
   menus: any[];
 }
 const Menu: React.FC<Props & RouteComponentProps> = ({ menus, ...rest }) => {
-  console.log(rest);
   return (
     <GridPageSection direction="column" name="menu" enablePadding>
       <Nav>

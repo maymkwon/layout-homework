@@ -22,7 +22,6 @@ const routes = [
 function App() {
   const rootRef = useRef(null);
   const morethan768 = useBreakpoint(rootRef);
-  console.log(morethan768);
   return (
     <Router>
       <GridPageLayout ref={rootRef}>
